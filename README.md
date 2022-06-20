@@ -1,3 +1,3 @@
 Demo.jampy
 
-Iz radoznalosti uradjen demo projekat iz jam.py framework-a u Django-u.
+Converted demo project from the Jam-Py framework in the Django framework.
