@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13499c3c-fb81-4822-b042-c5f45a08446b}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <InterpreterId>MSBuild|venv37|$(MSBuildProjectFullPath)</InterpreterId>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <CommandLineArguments>
+    </CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <PythonRunWebServerCommand>
+    </PythonRunWebServerCommand>
+    <PythonRunWebServerCommandArguments>runserver</PythonRunWebServerCommandArguments>
+    <PythonDebugWebServerCommandArguments>runserver</PythonDebugWebServerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="config\asgi.py" />
+    <Compile Include="config\settings.py" />
+    <Compile Include="config\urls.py" />
+    <Compile Include="config\wsgi.py" />
+    <Compile Include="config\__init__.py" />
+    <Compile Include="jampy\admin.py" />
+    <Compile Include="jampy\apps.py" />
+    <Compile Include="jampy\migrations\0001_initial.py" />
+    <Compile Include="jampy\migrations\0002_auto_20210620_1133.py" />
+    <Compile Include="jampy\migrations\__init__.py" />
+    <Compile Include="jampy\models.py" />
+    <Compile Include="jampy\tests.py" />
+    <Compile Include="jampy\views.py" />
+    <Compile Include="jampy\__init__.py" />
+    <Compile Include="manage.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="static\admin\css\autocomplete.css" />
+    <Content Include="static\admin\css\base.css" />
+    <Content Include="static\admin\css\changelists.css" />
+    <Content Include="static\admin\css\dashboard.css" />
+    <Content Include="static\admin\css\fonts.css" />
+    <Content Include="static\admin\css\forms.css" />
+    <Content Include="static\admin\css\login.css" />
+    <Content Include="static\admin\css\nav_sidebar.css" />
+    <Content Include="static\admin\css\responsive.css" />
+    <Content Include="static\admin\css\responsive_rtl.css" />
+    <Content Include="static\admin\css\rtl.css" />
+    <Content Include="static\admin\css\vendor\select2\select2.css" />
+    <Content Include="static\admin\css\vendor\select2\select2.min.css" />
+    <Content Include="static\admin\css\widgets.css" />
+    <Content Include="static\admin\fonts\LICENSE.txt" />
+    <Content Include="static\admin\fonts\README.txt" />
+    <Content Include="static\admin\img\calendar-icons.svg" />
+    <Content Include="static\admin\img\gis\move_vertex_off.svg" />
+    <Content Include="static\admin\img\gis\move_vertex_on.svg" />
+    <Content Include="static\admin\img\icon-addlink.svg" />
+    <Content Include="static\admin\img\icon-alert.svg" />
+    <Content Include="static\admin\img\icon-calendar.svg" />
+    <Content Include="static\admin\img\icon-changelink.svg" />
+    <Content Include="static\admin\img\icon-clock.svg" />
+    <Content Include="static\admin\img\icon-deletelink.svg" />
+    <Content Include="static\admin\img\icon-no.svg" />
+    <Content Include="static\admin\img\icon-unknown-alt.svg" />
+    <Content Include="static\admin\img\icon-unknown.svg" />
+    <Content Include="static\admin\img\icon-viewlink.svg" />
+    <Content Include="static\admin\img\icon-yes.svg" />
+    <Content Include="static\admin\img\inline-delete.svg" />
+    <Content Include="static\admin\img\README.txt" />
+    <Content Include="static\admin\img\search.svg" />
+    <Content Include="static\admin\img\selector-icons.svg" />
+    <Content Include="static\admin\img\sorting-icons.svg" />
+    <Content Include="static\admin\img\tooltag-add.svg" />
+    <Content Include="static\admin\img\tooltag-arrowright.svg" />
+    <Content Include="static\admin\js\actions.js" />
+    <Content Include="static\admin\js\admin\DateTimeShortcuts.js" />
+    <Content Include="static\admin\js\admin\RelatedObjectLookups.js" />
+    <Content Include="static\admin\js\autocomplete.js" />
+    <Content Include="static\admin\js\calendar.js" />
+    <Content Include="static\admin\js\cancel.js" />
+    <Content Include="static\admin\js\change_form.js" />
+    <Content Include="static\admin\js\collapse.js" />
+    <Content Include="static\admin\js\core.js" />
+    <Content Include="static\admin\js\inlines.js" />
+    <Content Include="static\admin\js\jquery.init.js" />
+    <Content Include="static\admin\js\nav_sidebar.js" />
+    <Content Include="static\admin\js\popup_response.js" />
+    <Content Include="static\admin\js\prepopulate.js" />
+    <Content Include="static\admin\js\prepopulate_init.js" />
+    <Content Include="static\admin\js\SelectBox.js" />
+    <Content Include="static\admin\js\SelectFilter2.js" />
+    <Content Include="static\admin\js\urlify.js" />
+    <Content Include="static\admin\js\vendor\jquery\jquery.js" />
+    <Content Include="static\admin\js\vendor\jquery\jquery.min.js" />
+    <Content Include="static\admin\js\vendor\jquery\LICENSE.txt" />
+    <Content Include="static\admin\js\vendor\select2\i18n\af.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ar.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\az.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\bg.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\bn.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\bs.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ca.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\cs.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\da.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\de.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\dsb.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\el.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\en.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\es.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\et.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\eu.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\fa.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\fi.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\fr.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\gl.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\he.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\hi.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\hr.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\hsb.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\hu.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\hy.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\id.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\is.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\it.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ja.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ka.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\km.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ko.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\lt.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\lv.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\mk.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ms.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\nb.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ne.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\nl.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\pl.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ps.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\pt-BR.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\pt.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ro.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\ru.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sk.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sl.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sq.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sr-Cyrl.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sr.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\sv.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\th.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\tk.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\tr.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\uk.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\vi.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\zh-CN.js" />
+    <Content Include="static\admin\js\vendor\select2\i18n\zh-TW.js" />
+    <Content Include="static\admin\js\vendor\select2\select2.full.js" />
+    <Content Include="static\admin\js\vendor\select2\select2.full.min.js" />
+    <Content Include="static\admin\js\vendor\xregexp\LICENSE.txt" />
+    <Content Include="static\admin\js\vendor\xregexp\xregexp.js" />
+    <Content Include="static\admin\js\vendor\xregexp\xregexp.min.js" />
+    <Content Include="static\debug_toolbar\css\print.css" />
+    <Content Include="static\debug_toolbar\css\toolbar.css" />
+    <Content Include="static\debug_toolbar\js\history.js" />
+    <Content Include="static\debug_toolbar\js\redirect.js" />
+    <Content Include="static\debug_toolbar\js\timer.js" />
+    <Content Include="static\debug_toolbar\js\toolbar.js" />
+    <Content Include="static\debug_toolbar\js\utils.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="config" />
+    <Folder Include="jampy" />
+    <Folder Include="jampy\migrations" />
+    <Folder Include="static\" />
+    <Folder Include="static\admin\" />
+    <Folder Include="static\admin\css" />
+    <Folder Include="static\admin\css\vendor\" />
+    <Folder Include="static\admin\css\vendor\select2" />
+    <Folder Include="static\admin\fonts" />
+    <Folder Include="static\admin\img" />
+    <Folder Include="static\admin\img\gis" />
+    <Folder Include="static\admin\js" />
+    <Folder Include="static\admin\js\admin" />
+    <Folder Include="static\admin\js\vendor\" />
+    <Folder Include="static\admin\js\vendor\jquery" />
+    <Folder Include="static\admin\js\vendor\select2" />
+    <Folder Include="static\admin\js\vendor\select2\i18n" />
+    <Folder Include="static\admin\js\vendor\xregexp" />
+    <Folder Include="static\debug_toolbar\" />
+    <Folder Include="static\debug_toolbar\css" />
+    <Folder Include="static\debug_toolbar\js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="..\venv37\">
+      <Id>venv37</Id>
+      <Version>3.7</Version>
+      <Description>venv37 (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
